@@ -1,0 +1,3 @@
+/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/CMakeFiles/Lab6_7.dir

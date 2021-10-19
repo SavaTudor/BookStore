@@ -1,0 +1,2168 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Carte@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Carte', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2,
+                  "endLine": 12,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Carte@@QAE@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Repo.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2,
+                  "endLine": 9,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repo@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Cos', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Cos.h"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 3,
+                  "endLine": 39,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1Cos@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Service::Service' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Service.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 2,
+                  "endLine": 23,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Service@@QAE@AAVRepo@@AAVValidatorCarte@@AAVCos@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 17,
+                  "endLine": 17,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 17,
+                  "endLine": 11,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 17,
+                  "endLine": 44,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_search@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 17,
+                  "endLine": 38,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_search@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 17,
+                  "endLine": 69,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_erase@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 18,
+                  "endLine": 74,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_erase@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 17,
+                  "endLine": 63,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_erase@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 17,
+                  "endLine": 96,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_modify@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 18,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_modify@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 17,
+                  "endLine": 90,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_modify@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 17,
+                  "endLine": 128,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 18,
+                  "endLine": 133,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 18,
+                  "endLine": 138,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 17,
+                  "endLine": 122,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 17,
+                  "endLine": 160,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_year@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 18,
+                  "endLine": 165,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_year@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 18,
+                  "endLine": 170,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_year@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 17,
+                  "endLine": 154,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_filter_year@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 17,
+                  "endLine": 198,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 18,
+                  "endLine": 203,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 18,
+                  "endLine": 208,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 17,
+                  "endLine": 193,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_title@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 17,
+                  "endLine": 222,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_autor@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 6,
+                  "endLine": 227,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_autor@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 6,
+                  "endLine": 232,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_autor@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 6,
+                  "endLine": 237,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_autor@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 252,
+                  "startColumn": 17,
+                  "endLine": 252,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_an_gen@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 6,
+                  "endLine": 257,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_an_gen@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 262,
+                  "startColumn": 6,
+                  "endLine": 262,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_an_gen@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 6,
+                  "endLine": 267,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_an_gen@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 6,
+                  "endLine": 272,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_sort_an_gen@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 289,
+                  "startColumn": 17,
+                  "endLine": 289,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 6,
+                  "endLine": 294,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 6,
+                  "endLine": 299,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 304,
+                  "startColumn": 6,
+                  "endLine": 304,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 6,
+                  "endLine": 309,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_add_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 17,
+                  "endLine": 321,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_empty_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 6,
+                  "endLine": 326,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_empty_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 6,
+                  "endLine": 331,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_empty_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 6,
+                  "endLine": 336,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_empty_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 6,
+                  "endLine": 341,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_empty_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 354,
+                  "startColumn": 17,
+                  "endLine": 354,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_cos_all@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 6,
+                  "endLine": 359,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_cos_all@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 6,
+                  "endLine": 364,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_cos_all@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 6,
+                  "endLine": 369,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_cos_all@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 374,
+                  "startColumn": 6,
+                  "endLine": 374,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_cos_all@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 388,
+                  "startColumn": 17,
+                  "endLine": 388,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_genereaza_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 393,
+                  "startColumn": 6,
+                  "endLine": 393,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_genereaza_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 398,
+                  "startColumn": 6,
+                  "endLine": 398,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_genereaza_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 403,
+                  "startColumn": 6,
+                  "endLine": 403,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_genereaza_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 6,
+                  "endLine": 408,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_genereaza_cos@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 17,
+                  "endLine": 428,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_total@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 6,
+                  "endLine": 433,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_total@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 438,
+                  "startColumn": 6,
+                  "endLine": 438,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_total@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 443,
+                  "startColumn": 6,
+                  "endLine": 443,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_total@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 448,
+                  "startColumn": 6,
+                  "endLine": 448,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_total@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 17,
+                  "endLine": 463,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_export@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 6,
+                  "endLine": 468,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_export@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 473,
+                  "startColumn": 6,
+                  "endLine": 473,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_export@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 478,
+                  "startColumn": 6,
+                  "endLine": 478,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_export@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 483,
+                  "startColumn": 6,
+                  "endLine": 483,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_export@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'valid' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 498,
+                  "startColumn": 17,
+                  "endLine": 498,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_map@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 6,
+                  "endLine": 503,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_map@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an2' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 508,
+                  "startColumn": 6,
+                  "endLine": 508,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_map@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an1' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 6,
+                  "endLine": 513,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_map@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'an3' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+                },
+                "region": {
+                  "startLine": 518,
+                  "startColumn": 6,
+                  "endLine": 518,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?test_map@TestService@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29910.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0077B1C0 -il C:\\Users\\tudor\\AppData\\Local\\Temp\\_CL_eeea7bbdast -typedil -f TestService.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829910 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\TestService.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\tudor\\Desktop\\Lab8\\Lab6_7\\Lab6_7 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset ..\\..\\..\\Lab6_7\\Lab6_7\\Lab6_7\\a1.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\tudor\\Desktop\\Lab8\\Lab6_7\\Lab6_7\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7d1b294b6dccebc2306993a8c4317775"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Repo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b3e57bc69f3ddbae8126171b8abacca9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Cos.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0e8fb70623cdd84f05877499b62eeed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Service.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "043e15bba061e71ac48407899b795728"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/UI.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "501850a864d545286b13a6da1a5e4c06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad5121eb3454142f23befac0fd2b643a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/mylist.h"
+          },
+          "hashes": {
+            "md5": "1a4ba715c047a67a98cebd688ef5a4f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/validatorcarte.h"
+          },
+          "hashes": {
+            "md5": "650d36f351fe3a2a4ca0fbf107be5677"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/tests.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "29038828030bebd27f03e969fe98eb50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/tests.h"
+          },
+          "hashes": {
+            "md5": "af7c1eb5b78eaa20368fdeaa200b5449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testcarte.h"
+          },
+          "hashes": {
+            "md5": "9ed9df70b4d5b95e4d74350e4ef560eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testrepo.h"
+          },
+          "hashes": {
+            "md5": "0800363c323aa78dcae1ebc87ae6c87a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testservice.h"
+          },
+          "hashes": {
+            "md5": "d38c8c21c0966909ae07e6e5eed810d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testvalidator.h"
+          },
+          "hashes": {
+            "md5": "7f0959a979573fee7c66a3a5d697537c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testcos.h"
+          },
+          "hashes": {
+            "md5": "1fe08b147c806cea28394b5d1a2fcbe0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/TestService.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1181eb41104c4cbeb4c48572c5504dca"
+          }
+        }
+      ]
+    }
+  ]
+}

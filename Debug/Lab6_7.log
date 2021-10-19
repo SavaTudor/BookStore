@@ -1,0 +1,119 @@
+﻿  App.cpp
+  Repo.cpp
+  Service.cpp
+  TestRepo.cpp
+  TestService.cpp
+  Tests.cpp
+  UI.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Lab6_7.vcxproj -> C:\Users\tudor\Desktop\Lab8\Lab6_7\Debug\Lab6_7.exe
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Carte.h(8): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Carte.h(12): warning C26432: If you define or delete any default operation in the type 'class Carte', define or delete them all (c.21).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Repo.h(9): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Cos.h(39): warning C26432: If you define or delete any default operation in the type 'class Cos', define or delete them all (c.21).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.h(23): warning C26440: Function 'Service::Service' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.h(6): warning C26440: Function 'UI::UI' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\App.cpp(13): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Carte.cpp(43): warning C26440: Function 'Carte::equal' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Cos.cpp(3): warning C26440: Function 'Cos::goleste_cos' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Cos.cpp(19): warning C26440: Function 'Cos::get_cos' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Cos.cpp(23): warning C26440: Function 'Cos::total' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Repo.cpp(4): warning C26440: Function 'Repo::len' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Repo.cpp(31): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.5'. '(temporary 5)' may have been invalidated at line 31 (lifetime.1).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Repo.cpp(31): warning C26487: Don't return a pointer '(27's result)' that may be invalid (lifetime.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Repo.cpp(73): warning C26440: Function 'Repo::all' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.cpp(30): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 30 (lifetime.1).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.cpp(30): warning C26487: Don't return a pointer '(25's result)' that may be invalid (lifetime.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.cpp(76): warning C26440: Function '<lambda_973d19304d80dc70f783caf309c034a3>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.cpp(82): warning C26440: Function '<lambda_5f438e9aad8c87be57069d83fe291830>::operator()' can be declared 'noexcept' (f.6).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Service.cpp(156): warning C26496: The variable 'dist' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(17): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(11): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(44): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(38): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(69): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(74): warning C26814: The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(63): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(96): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(101): warning C26814: The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(90): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(128): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(133): warning C26814: The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(138): warning C26814: The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(122): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(160): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(165): warning C26814: The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(170): warning C26814: The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(154): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(198): warning C26814: The const variable 'an' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(203): warning C26814: The const variable 'an1' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(208): warning C26814: The const variable 'an2' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(193): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(222): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(227): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(232): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(237): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(252): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(257): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(262): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(267): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(272): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(289): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(294): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(299): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(304): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(309): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(321): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(326): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(331): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(336): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(341): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(354): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(359): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(364): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(369): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(374): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(388): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(393): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(398): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(403): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(408): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(428): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(433): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(438): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(443): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(448): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(463): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(468): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(473): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(478): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(483): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(498): warning C26496: The variable 'valid' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(503): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(508): warning C26496: The variable 'an2' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(513): warning C26496: The variable 'an1' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\TestService.cpp(518): warning C26496: The variable 'an3' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(32): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(33): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(35): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(36): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(38): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(39): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(67): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(68): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(70): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(71): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(73): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(74): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(89): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(90): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(106): warning C26496: The variable 'an' does not change after construction, mark it as const (con.4).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(105): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(106): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(253): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(254): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(256): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(257): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(318): warning C26485: Expression 'line': No array to pointer decay (bounds.3).
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\UI.cpp(319): warning C26485: Expression 'line': No array to pointer decay (bounds.3).

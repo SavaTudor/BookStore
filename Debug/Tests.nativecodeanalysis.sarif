@@ -1,0 +1,280 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Carte@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Carte', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 2,
+                  "endLine": 12,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Carte@@QAE@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Repo.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 2,
+                  "endLine": 9,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repo@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Cos', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Cos.h"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 3,
+                  "endLine": 39,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1Cos@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29910.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0077B1C0 -il C:\\Users\\tudor\\AppData\\Local\\Temp\\_CL_7fd9958bast -typedil -f Tests.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829910 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Tests.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\tudor\\Desktop\\Lab8\\Lab6_7\\Lab6_7 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset ..\\..\\..\\Lab6_7\\Lab6_7\\Lab6_7\\a1.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\tudor\\Desktop\\Lab8\\Lab6_7\\Lab6_7\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Carte.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7d1b294b6dccebc2306993a8c4317775"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Repo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b3e57bc69f3ddbae8126171b8abacca9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Cos.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0e8fb70623cdd84f05877499b62eeed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/Service.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "043e15bba061e71ac48407899b795728"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/UI.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "501850a864d545286b13a6da1a5e4c06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/tudor/Desktop/Lab8/Lab6_7/Lab6_7/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ad5121eb3454142f23befac0fd2b643a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/mylist.h"
+          },
+          "hashes": {
+            "md5": "1a4ba715c047a67a98cebd688ef5a4f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/validatorcarte.h"
+          },
+          "hashes": {
+            "md5": "650d36f351fe3a2a4ca0fbf107be5677"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/tests.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "29038828030bebd27f03e969fe98eb50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/tests.h"
+          },
+          "hashes": {
+            "md5": "af7c1eb5b78eaa20368fdeaa200b5449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testcarte.h"
+          },
+          "hashes": {
+            "md5": "9ed9df70b4d5b95e4d74350e4ef560eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testrepo.h"
+          },
+          "hashes": {
+            "md5": "0800363c323aa78dcae1ebc87ae6c87a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testservice.h"
+          },
+          "hashes": {
+            "md5": "d38c8c21c0966909ae07e6e5eed810d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testvalidator.h"
+          },
+          "hashes": {
+            "md5": "7f0959a979573fee7c66a3a5d697537c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/tudor/desktop/lab8/lab6_7/lab6_7/testcos.h"
+          },
+          "hashes": {
+            "md5": "1fe08b147c806cea28394b5d1a2fcbe0"
+          }
+        }
+      ]
+    }
+  ]
+}

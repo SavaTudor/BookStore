@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Carte.h</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Carte::{ctor}</FUNCTION>
+    <DECORATED>??0Carte@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Carte.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Carte', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Carte::{ctor}</FUNCTION>
+    <DECORATED>??0Carte@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Carte.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Carte::equal' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Carte::equal</FUNCTION>
+    <DECORATED>?equal@Carte@@QBE_NABV1@@Z</DECORATED>
+    <FUNCLINE>43</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

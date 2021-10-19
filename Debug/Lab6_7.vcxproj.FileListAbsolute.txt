@@ -1,0 +1,4 @@
+C:\Users\tudor\Desktop\Lab6_7 -Iter 2\Lab6_7\Debug\Lab6_7.exe.lastcodeanalysissucceeded
+C:\Users\tudor\Desktop\Lab6_7 -Iter 2\Lab6_7\Lab6_7\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Debug\Lab6_7.exe.lastcodeanalysissucceeded
+C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\Debug\NativeCodeAnalysis.read.1.tlog

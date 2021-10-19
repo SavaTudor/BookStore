@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Carte.h</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Carte::{ctor}</FUNCTION>
+    <DECORATED>??0Carte@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Carte.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Carte', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Carte::{ctor}</FUNCTION>
+    <DECORATED>??0Carte@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Cos.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Cos', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Cos::{dtor}</FUNCTION>
+    <DECORATED>??1Cos@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Cos.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Cos::goleste_cos' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Cos::goleste_cos</FUNCTION>
+    <DECORATED>?goleste_cos@Cos@@QAEXXZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Cos.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Cos::get_cos' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Cos::get_cos</FUNCTION>
+    <DECORATED>?get_cos@Cos@@QBEABV?$vector@U?$pair@VCarte@@H@std@@V?$allocator@U?$pair@VCarte@@H@std@@@2@@std@@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\tudor\Desktop\Lab8\Lab6_7\Lab6_7\</FILEPATH>
+      <FILENAME>Cos.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Cos::total' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Cos::total</FUNCTION>
+    <DECORATED>?total@Cos@@QBEHXZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

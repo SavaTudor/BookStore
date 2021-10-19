@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab6_7"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab6_7">
+				<Option output="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Lab6_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Lab6_7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab6_7/fast">
+				<Option output="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Lab6_7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/."/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Lab6_7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/App.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Carte.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Carte.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Cos.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Cos.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/MyList.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Repo.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Repo.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Service.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Service.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestCarte.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestCarte.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestCos.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestCos.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestList.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestList.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestRepo.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestRepo.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestService.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestService.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestValidator.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/TestValidator.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Tests.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/Tests.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/UI.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/UI.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/ValidatorCarte.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/ValidatorCarte.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/exceptions.h">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="/Users/savatudor/Desktop/Documente/GIT_PROJECTS/Lab6_7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
